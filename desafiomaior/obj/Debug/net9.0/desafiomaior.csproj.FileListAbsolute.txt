@@ -1,0 +1,14 @@
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\obj\Debug\net9.0\desafiomaior.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\obj\Debug\net9.0\desafiomaior.AssemblyInfoInputs.cache
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\obj\Debug\net9.0\desafiomaior.AssemblyInfo.cs
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\obj\Debug\net9.0\desafiomaior.csproj.CoreCompileInputs.cache
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\bin\Debug\net9.0\desafiomaior.exe
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\bin\Debug\net9.0\desafiomaior.deps.json
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\bin\Debug\net9.0\desafiomaior.runtimeconfig.json
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\bin\Debug\net9.0\desafiomaior.dll
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\bin\Debug\net9.0\desafiomaior.pdb
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\obj\Debug\net9.0\desafiomaior.dll
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\obj\Debug\net9.0\refint\desafiomaior.dll
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\obj\Debug\net9.0\desafiomaior.pdb
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\obj\Debug\net9.0\desafiomaior.genruntimeconfig.cache
+C:\Users\52233506855\Desktop\BackEndMoura\desafiomaior\obj\Debug\net9.0\ref\desafiomaior.dll
