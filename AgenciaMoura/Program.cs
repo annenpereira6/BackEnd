@@ -1,4 +1,5 @@
-﻿string[] nomes = new string[10];
+﻿using System.Diagnostics.Contracts;
+string[] nomes = new string[10];
 float[] saldos = new float[10];
 int totalClientes = 0;
 
@@ -35,19 +36,17 @@ do
             Transferir();
             break;
         case 5:
-            ListarClientes();
+            ListarCliente();
             break;
         default:
             Console.WriteLine($"Opção Inválida");
             break;
     }
 
-
-    //ao final de cada opção, faz uma para no sistema
     Console.WriteLine($"Pressione <Enter> para continuar...");
     Console.ReadLine();
 
-} while (opcao != 0);//recomeça o menu
+} while (opcao != 0);
 
 void CadastrarCliente()
 {
@@ -64,101 +63,92 @@ void CadastrarCliente()
     nomes[totalClientes] = Console.ReadLine();
     saldos[totalClientes] = 0;
     totalClientes++;
-    
+
     Console.WriteLine($"cliente cadastrado com sucesso!");
 }
-
 void Depositar()
 {
-    int idCliente = BuscarClientes();
-
+    int idCliente = BuscarCliente();
     if (idCliente == -1)
     {
         return;
     }
-    Console.WriteLine($"Valor para depósito: ");
-    float valor = float.Parse(Console.ReadLine());
-    saldos[idCliente] += valor;
-    Console.WriteLine($"Depósito de R$ {valor:F2} realizado");
-    
 
+    //cliente encontrado
+    Console.Write($"Valor para depósito: ");
+    float Valor = float.Parse(Console.ReadLine());
+    saldos[idCliente] += Valor;
+    Console.WriteLine($"Depósito de R$ {Valor:F2} realizado");
     
 }
 void Sacar()
 {
-    int idCliente = BuscarClientes();
+    int idCliente = BuscarCliente();
     if (idCliente == -1)
     {
         return;
     }
-   
-    Console.WriteLine($"Valor para saque");
-    float saque = float.Parse(Console.ReadLine());
-    
-     if(saque > saldos[idCliente])
+
+    Console.WriteLine($"Digite o valor do saque: ");
+    float valor = float.Parse(Console.ReadLine());
+    if (valor > saldos[idCliente] && valor > 0)
     {
-        Console.WriteLine($"Saldo insuficiente. Você tem apenas R$ {saldos[idCliente] :F2}");
+        Console.WriteLine($"Saldo insuficiente para saque!");
         return;
     }
-    saldos[idCliente] -= saque;
-    Console.WriteLine($"Saque no valor de R$ {saque:F2} realizado");
+    saldos[idCliente] -= valor;
+    Console.WriteLine($"Saque de R$ {valor:F2} Realizado!");
 }
 void Transferir()
 {
-    Console.WriteLine($"== Transferencia ==");
-    Console.WriteLine($"Conta de Origem: ");
-    int idOrigem = BuscarClientes();
+    Console.WriteLine($"== Transferência ==");
+    Console.Write($"Conta de Origem: ");
+    int idOrigem = BuscarCliente();
 
     if (idOrigem == -1) return;
 
-    Console.WriteLine($"Conta do Destino: ");
-    int idDestino = BuscarClientes();
+    Console.Write($"Conta de Destino: ");
+    int idDestino = BuscarCliente();
 
     if (idDestino == -1) return;
 
-    Console.WriteLine($"Valor para transferir: ");
+    Console.Write($"Valor para transferir: ");
     float valor = float.Parse(Console.ReadLine());
-    
-    
-   
-   
-}
-void ListarClientes()
-{
-    Console.WriteLine($"=== Lista Clientes ===");
-    for (int i = 0; i < totalClientes; i++)
-    {
-       Console.WriteLine($"{i} - Nome: {nomes[i]}, R$ {saldos[i]}");
 
+    if (saldos[idDestino] >= valor && valor > 0)
+    {
+        saldos[idOrigem] -= valor;
+        saldos[idDestino] += valor;
+        Console.WriteLine($"Transferência concluída");
+    }
+    else
+    {
+        Console.WriteLine($"Saldo Insuficiente");   
+    }
+
+}
+void ListarCliente()
+{
+    Console.WriteLine($"=== Listagem de Clientes ===");
+
+    for (int t = 0; t < totalClientes; t++)
+    {
+        Console.WriteLine($"Nome:{t} - {nomes[t]}, R$ {saldos[t]}");
     }
 }
-int BuscarClientes()
+int BuscarCliente()
 {
-    ListarClientes();//mostra a lista de clientes
+    //listar cliente
+    ListarCliente();
     //pedir pro usuário escolher o cliente
-    Console.WriteLine($"Digite o número do cliente: ");
+    Console.WriteLine($"Digite o número do clinete: ");
     int idCliente = int.Parse(Console.ReadLine());
-
     if (idCliente < 0 || idCliente >= totalClientes)
     {
         Console.WriteLine($"Cliente não encontrado!");
         return -1;
-        
     }
-
-
+    
     //retornar/devolver o id do cliente
-    return idCliente;// vamos trocar pelo id do usuário buscado!
-}
-{
-    ListarClientes();
-    Console.Write($"digite o numero do cliente: ");
-    int idCliente = int.Parse(Console.ReadLine());
-    if (idCliente < 0 || idCliente >= totalClientes)
-    {
-        Console.WriteLine($"Cliente nao encontrado!");
-        return -1;
-        
-    }
-        return idCliente;
+    return idCliente;
 }
