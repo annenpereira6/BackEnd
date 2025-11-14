@@ -1,0 +1,15 @@
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\bin\Debug\net9.0\Exercicios02.exe
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\bin\Debug\net9.0\Exercicios02.deps.json
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\bin\Debug\net9.0\Exercicios02.runtimeconfig.json
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\bin\Debug\net9.0\Exercicios02.dll
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\bin\Debug\net9.0\Exercicios02.pdb
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\Exercicios02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\Exercicios02.AssemblyInfoInputs.cache
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\Exercicios02.AssemblyInfo.cs
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\Exercicios02.csproj.CoreCompileInputs.cache
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\Exercicios02.sourcelink.json
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\Exercicios02.dll
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\refint\Exercicios02.dll
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\Exercicios02.pdb
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\Exercicios02.genruntimeconfig.cache
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Heranca\Exercicios\Exercicios02\obj\Debug\net9.0\ref\Exercicios02.dll

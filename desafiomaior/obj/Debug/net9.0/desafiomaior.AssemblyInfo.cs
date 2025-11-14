@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("desafiomaior")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c61129fc6a68513b124ace5fb33bd6309240fb8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b81d1ede5de4a1270f865908ebf0da592a5f332c")]
 [assembly: System.Reflection.AssemblyProductAttribute("desafiomaior")]
 [assembly: System.Reflection.AssemblyTitleAttribute("desafiomaior")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Heranca
 {
@@ -10,5 +6,15 @@ namespace Heranca
         public string Marca;
         public string Modelo;
         public int Ano;
+
+
+
+        public void Acelerar()
+        {
+            Console.WriteLine($"Acelerando o veiculo");
+            
+        }
+        
+        
     }
 }

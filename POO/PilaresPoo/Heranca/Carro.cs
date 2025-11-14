@@ -1,5 +1,4 @@
 
-
 namespace Heranca
 {
     public class Carro : Veiculo
@@ -12,9 +11,9 @@ namespace Heranca
             Console.WriteLine($"Modelo: {Modelo}");
             Console.WriteLine($"Ano: {Ano}");
             Console.WriteLine($"Quantas portas: {QtdPortas}");
-            
-            
-                        
+
+
+
         }
     }
 }
