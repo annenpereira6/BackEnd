@@ -1,7 +1,7 @@
 
 namespace Exercicio02
 {
-    public interface Imprimivel
+    public interface IImprimivel
     {
         void Imprimir();
     

@@ -1,0 +1,15 @@
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\bin\Debug\net9.0\Classesestaticas.exe
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\bin\Debug\net9.0\Classesestaticas.deps.json
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\bin\Debug\net9.0\Classesestaticas.runtimeconfig.json
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\bin\Debug\net9.0\Classesestaticas.dll
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\bin\Debug\net9.0\Classesestaticas.pdb
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\Classesestaticas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\Classesestaticas.AssemblyInfoInputs.cache
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\Classesestaticas.AssemblyInfo.cs
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\Classesestaticas.csproj.CoreCompileInputs.cache
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\Classesestaticas.sourcelink.json
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\Classesestaticas.dll
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\refint\Classesestaticas.dll
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\Classesestaticas.pdb
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\Classesestaticas.genruntimeconfig.cache
+C:\Users\52233506855\Desktop\BackEndMoura\POO\PilaresPoo\Classesestaticas\obj\Debug\net9.0\ref\Classesestaticas.dll

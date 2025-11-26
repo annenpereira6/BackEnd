@@ -6,7 +6,7 @@ namespace Exercicio1
 {
     public double Raio { get; set; }
 
-    public double CalcularArea()
+    public void CalcularArea()
     {
         return Math.PI * Raio * Raio;
     }

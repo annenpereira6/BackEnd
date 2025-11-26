@@ -4,7 +4,7 @@ using Exercicio02;
 // List<Fatura> listafatura = new List<Fatura>();
 // List<Relatorio> listaRelatorio = new List<Relatorio>();
 // List<Contrato> listaContrato = new List<Contrato>();
-List<Imprimivel> Documentos = new List<Imprimivel>();
+List<IImprimivel> Documentos = new List<IImprimivel>();
 
 int opcao;
 
@@ -84,15 +84,37 @@ void CadastrarFaturas()
     Documentos.Add(fat);
 }
 
-void CadastrarRelatorios()
+void CadastrarRelatorio()
 {
+       Console.Write($"Digite o Nome do Responsavel:");
+    string nome = Console.ReadLine();
+
+    Console.Write($"Digite o Texto Relatorio:");
+    string TX = Console.ReadLine();
+
+    Relatorio relatorio = new Relatorio();
+    relatorio.NomeResponsavel = nome;
+    relatorio.TextoRelatorio =  TX;
+    Documentos.Add(relatorio);
+    Console.WriteLine($"Relatorio cadastrado com sucesso!");
     
 }
 
-void CadastrarContratos()
+void CadastrarContrato()
 {
+     Console.WriteLine($"Digite o Nome:");
+    string Nome = Console.ReadLine();
+
+    Console.WriteLine($"Digite o Texto Clausula:");
+    string TX = Console.ReadLine();
+    Contrato contrato = new Contrato();
+    contrato.Nome = Nome;
+    contrato.textoClausulas = TX;
+    Documentos.Add(contrato);
+    Console.WriteLine($"contrato cadastrado com sucesso!");
     
 }
+
 
 void ListarFaturas()
 {
@@ -108,12 +130,31 @@ void ListarFaturas()
 
 void ListarRelatorios()
 {
-    
+    {
+        Console.WriteLine($"Listando Relatorios:");
+    foreach (var item in Documentos)
+    {
+       if (item is Relatorio)
+       {
+            item.Imprimir();
+       } 
+    }
+}
 }
 
-void ListarContratos()
+void ListarContrato()
 {
+    {
+            Console.WriteLine($"Listando Contrato:");
+    foreach (var item in Documentos)
+    {
+       if (item is Contrato)
+       {
+            item.Imprimir();
+       } 
+    }
     
+}
 }
 
 

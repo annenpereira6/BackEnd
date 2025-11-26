@@ -7,7 +7,7 @@ namespace Exercicio1
     public double Largura { get; set; }
     public double Altura { get; set; }
 
-    public double CalcularArea()
+    public void CalcularArea()
     {
         return Largura * Altura;
     }

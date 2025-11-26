@@ -1,9 +1,9 @@
 ﻿using Exercicio1;
 Console.WriteLine("=== EXERCÍCIO 1 - Formas ===");
 Console.Write("Informe a largura do retângulo: ");
-double largura = double.Parse(Console.ReadLine());
+float largura = float.Parse(Console.ReadLine());
 Console.Write("Informe a altura do retângulo: ");
-double altura = double.Parse(Console.ReadLine());
+float altura = float.Parse(Console.ReadLine());
 Retangulo retangulo = new Retangulo
 {
     Largura = largura,
@@ -11,7 +11,7 @@ Retangulo retangulo = new Retangulo
 };
 Console.WriteLine($"Área do Retângulo = {retangulo.CalcularArea()}");
 Console.WriteLine("Informe o raio do círculo: ");
-double raio = double.Parse(Console.ReadLine());
+float raio = float.Parse(Console.ReadLine());
 Circulo circulo = new Circulo
 {
     Raio = raio
