@@ -8,12 +8,13 @@ namespace Encapsulamento
         string Marca;
         string Modelo;
         int Velocidade;
-
+      
+      //set
        public void DefinirMarca(string valor)
         {
             Marca = valor;
         }
-
+       //get
         public string ObterMarca()
         {
             return Marca;
@@ -38,8 +39,12 @@ namespace Encapsulamento
 
         public void Acelerar(int valor)
         {
-            Velocidade += valor;
-            Console.WriteLine($"Acelerou +{valor}. Velocidade : {Velocidade} km/h");
+            if(valor > 0)
+            {
+                 Velocidade += valor;
+            }
+           Console.WriteLine($"Nao pode acelerar negativamente!");
+
         }
 
         public void Frear(int valor)
@@ -51,7 +56,7 @@ namespace Encapsulamento
                 Velocidade = 0;
             }
 
-            Console.WriteLine($"Freou -{valor}. Velocidade : {Velocidade} km/h");   
+           
         }
     }
    }
