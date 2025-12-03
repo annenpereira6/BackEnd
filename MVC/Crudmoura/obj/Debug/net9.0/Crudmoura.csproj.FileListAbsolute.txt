@@ -14,7 +14,6 @@ C:\Users\52233506855\Desktop\BackEndMoura\MVC\Crudmoura\obj\Debug\net9.0\Crudmou
 C:\Users\52233506855\Desktop\BackEndMoura\MVC\Crudmoura\obj\Debug\net9.0\Crudmoura.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\52233506855\Desktop\BackEndMoura\MVC\Crudmoura\obj\Debug\net9.0\Crudmoura.RazorAssemblyInfo.cache
 C:\Users\52233506855\Desktop\BackEndMoura\MVC\Crudmoura\obj\Debug\net9.0\Crudmoura.RazorAssemblyInfo.cs
-C:\Users\52233506855\Desktop\BackEndMoura\MVC\Crudmoura\obj\Debug\net9.0\Crudmoura.sourcelink.json
 C:\Users\52233506855\Desktop\BackEndMoura\MVC\Crudmoura\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\52233506855\Desktop\BackEndMoura\MVC\Crudmoura\obj\Debug\net9.0\scopedcss\bundle\Crudmoura.styles.css
 C:\Users\52233506855\Desktop\BackEndMoura\MVC\Crudmoura\obj\Debug\net9.0\scopedcss\projectbundle\Crudmoura.bundle.scp.css
